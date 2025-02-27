@@ -13,7 +13,7 @@ def explore_dataframe(df):
     df.info()
 
 
-# Clears data from dataframe and only the ccolums are left
+# Clears data from dataframe and only the columns are left
 def df_clone_nodata(df):
 
     empty_df = pd.DataFrame(columns=df.columns)
