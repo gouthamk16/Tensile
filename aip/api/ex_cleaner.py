@@ -3,6 +3,7 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 from category_encoders import TargetEncoder, WOEEncoder
 
+#parsing excel sheets
 def excel_to_dataframe(file_path, sheet_name=0):
     
     try:
